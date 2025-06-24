@@ -13,9 +13,10 @@
 <div class="grid grid-flow-col grid-rows-8 m-12 gap-2">
   {#each icons as icon}
     <container
-      class="object-contain border-gray-500 hover:brightness-50 transition hover:cursor-pointer"
+      class="object-contain border-gray-500"
     >
-      <img class="rounded" src="../images/{icon.path}" />
+    <!-- <p class="text-xs bg-gray-100 p-1 rounded mb-1 text-center">title</p> -->
+      <img class="hover:brightness-50 transition rounded hover:cursor-pointer" src="../images/{icon.path}" />
     </container>
   {/each}
 </div>
